@@ -2,7 +2,7 @@
 ## Frontend developer
 
 ![avatar1.jpg](assets/img/avatar1.jpg)
----------------------
+--------------------------------------
 
 ## **Contacts**
 
@@ -13,7 +13,7 @@
 
 ## **About myself**
 
-I'm 38 years old and currently working as senior legal counsel. However, I started learning programming last year and I have become very passionate about it. I want to pursue a career in frontend development and work as programmer. I'm also interested in system administration. So far, I have learned the basic syntax of Python.  I continue to enthusiastically learn and develop myself in this field. 
+I'm 38 years old and I currently working as senior legal counsel. However, I started learning programming last year and I have become very passionate about it. I want to pursue a career in frontend development and work as programmer. I'm also interested in system administration. So far, I have learned the basic syntax of Python.  I continue to enthusiastically learn and develop myself in this field. 
 
 ## **Skills**
 
@@ -68,11 +68,7 @@ Also I have several frontend mini-projects.
 * [Audio-player](https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/js30-1.2-audio-player)
 * [Image-Gallery](https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/image-galery)
 * [CSS-Mem-Slider](https://lynxbios.github.io/cssMemeSlider/cssMemeSlider/index.html)
-    + JavaScript
-    + HTML
-    + CSS
-    + Git
-
+    
 
 ## **Education**
 
@@ -92,8 +88,8 @@ Also I have several frontend mini-projects.
     + Stepik (2023)
     "Generation Python": a course for professionals
 
-    + RSSchool (2023)
-    JavaScript FrontEnd Pre-School 2023Q2
+    + The Rolling Scopes School (2023)
+    JavaScript Front-End Pre-School 2023Q2: a course for beginners
 
 
 ## **Languages**
