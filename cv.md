@@ -1,4 +1,4 @@
-# **Tatsiana Radzkovich**
+# **Taćciana Radźkovič**
 ## Frontend developer
 
 ![avatar1.jpg](assets/img/avatar1.jpg)
@@ -62,7 +62,7 @@ for value in range(m):
 ## **Experience**
 
 I have participated in a small project as a backend developer. I have also explored some aspects of DevOps engineering. I have experience with AWS, Docker, Postgres, MySQL and Flask.
-Also I have several frontend mini-projects.
+Also I have several front-end mini-projects.
 ### Projects:
 * [Memory-game](https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/memory-game)
 * [Audio-player](https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/js30-1.2-audio-player)
