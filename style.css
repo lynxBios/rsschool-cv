@@ -170,6 +170,10 @@ a:-webkit-any-link {
 }
 
 .rs__logo {
+    transition: 0.8s;
+}
+
+.rs__logo:hover {
     box-shadow: 0 5px 10px #c5a183;
 }
 
@@ -177,6 +181,11 @@ a:-webkit-any-link {
     display: flex;
     border-radius: 50%;
     background-color: #c5a183;
+    transition: 0.7s;
+}
+
+.github-logo:hover {
+    background-color: #edd7c5;
 }
     
 @media (max-width: 768px) {
