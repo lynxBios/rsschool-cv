@@ -25,12 +25,14 @@
   </header>
   
   <main class="main">
-    <div class="container main-container">
+    <div class="main-container">
       
-      <section class="section" id="profile">
-        <h1 class="section-title">Taćciana Radźkovič</h1>
-        <h2 class="section-title">Front-end developer</h2>
-        <img src="assets/img/avatar1.jpg" alt="my photo">
+      <section class="section__main" id="profile">
+        <img src="assets/img/avatar1.jpg" class="avatar" alt="my photo">
+        <div class="title">
+          <h1 class="title__name">Taćciana Radźkovič</h1>
+          <h2 class="section-title">Front-end developer</h2>
+        </div>        
       </section>
 
       <section class="section" id="contacts">
@@ -39,7 +41,7 @@
           <li class="item">Phone: +375293203861</li>
           <li class="item">E-mail: stv29595@gmail.com</li>
           <li class="item">Discord: lynxbios</li>
-          <li class="item">location: Belarus</li>
+          <li class="item">Location: Belarus</li>
         </ul>
       </section>
 
@@ -87,9 +89,9 @@
 
       <section class="section" id="experience">
         <h2 class="section-title">EXPERIENCE</h2>
-        <p>I have participated in a small project as a backend developer. I have also explored some aspects of DevOps engineering. I have experience with AWS, Postgres, MySQL and Flask.<br>Also I have several front-end mini-projects.</p>
+        <p class="projects__text">I have participated in a small project as a backend developer. I have also explored some aspects of DevOps engineering. I have experience with AWS, Postgres, MySQL and Flask.<br>Also I have several front-end mini-projects.</p>
         
-        <p>Projects</p>
+        <p class="projects">Projects</p>
         
         <ul>
           <li class="item">
@@ -113,15 +115,15 @@
           <p class="item">Mogilev State A. Kuleshov University (2002-2007)</p>
             <ul>
               <li class="item">Faculty of Economics and Law</li>
-              <li class="item">Specialties: Lawyer</li>
+              <li class="item projects__text">Specialties: Lawyer</li>
             </ul>
-          <p>Courses:</p>
+          <p class="projects">Courses:</p>
             <ul>
-              <li class="item">School of Internet Professions PROFI-INTERNET (2019). Specialties: Yandex.Direct specialist 5.0</li>
-              <li class="item">Stepik (2022). "Python Generation": a course for beginners</li>
-              <li class="item">Stepik (2022-2023). "Python Generation": advanced course</li>
-              <li class="item">Stepik (2023). "Generation Python": a course for professionals</li>
-              <li class="item">The Rolling Scopes School (2023). JavaScript Front-End Pre-School 2023Q2: a course for beginners</li>
+              <li class="item1">School of Internet Professions PROFI-INTERNET (2019). Specialties: Yandex.Direct specialist 5.0</li>
+              <li class="item1">Stepik (2022). "Python Generation": a course for beginners</li>
+              <li class="item1">Stepik (2022-2023). "Python Generation": advanced course</li>
+              <li class="item1">Stepik (2023). "Generation Python": a course for professionals</li>
+              <li class="item1">The Rolling Scopes School (2023). JavaScript Front-End Pre-School 2023Q2: a course for beginners</li>
             </ul>          
       </section>
 
@@ -136,10 +138,10 @@
   </main>
   
   <footer class="footer">
-    <div class="footer-container">
-      <a href="https://github.com/lynxBios" class="nav-link"><img src="assets/img/github-logo.svg" alt="GitHub-logo"></a>
+    <div class="footer-container">      
       2023 &copy;
-      <a href="https://rs.school/js/"><img src="assets/img/logo1.jpg" alt="RS-logo"></a>
+      <a class="rs__logo" href="https://rs.school/js/"><img src="assets/img/logo1.jpg" alt="RS-logo"></a>
+      <a href="https://github.com/lynxBios" class="github-logo"><img src="assets/img/github-logo.svg" alt="GitHub-logo"></a>
     </div>
   </footer>
 
