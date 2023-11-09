@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Montserrat;
+      src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5a183;
+    background-color: grey;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;  
+    margin: 0 auto;
+    
+    font-size: 1.5rem;
+}
+  
+.header {    
+    width: 100%;
+    max-width: 1440px;
+    height: 7rem;  
+
+    font-size: 1.5rem;    
+}
+  
+.header-container {
+    background-color: rgb(15, 2, 18);    
+}
+  
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nav-link {
+    padding: 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: #c5a183;    
+}
+
+.nav-item {
+    transition: all 0.7s;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;   
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: rgb(42, 38, 44);    
+}
+  
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    margin: 5px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #c5a183; 
+    
+    transition: all 0.7s;
+}
+
+.section:hover {
+    transform: scale(0.97);    
+}
+
+.section__main {
+    display: flex;
+    justify-content: center;    
+   
+    width: 49%;
+    margin: 5px;
+    padding: 20px;    
+}
+  
+.avatar {
+    margin-right: 10%;
+    border-radius: 5px;
+    /**box-shadow: 0 5px 10px #c5a183;**/
+} 
+  
+.title {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 9000px;
+    height: 15rem;   
+
+}
+
+.title__name {
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects__text {
+    margin-bottom: 5rem;
+}
+
+.projects {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+a:-webkit-any-link {    
+    color: #c5bf83;
+    text-decoration: none;
+}
+
+.item {
+    transition: 0.7s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    max-width: 1440px;
+    height: 7rem;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background-color: rgb(15, 2, 18);
+}
+
+.rs__logo {
+    transition: 0.8s;
+}
+
+.rs__logo:hover {
+    box-shadow: 0 5px 10px #c5a183;
+}
+
+.github-logo {
+    display: flex;
+    border-radius: 50%;
+    background-color: #c5a183;
+    transition: 0.7s;
+}
+
+.github-logo:hover {
+    background-color: #edd7c5;
+}
+    
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
