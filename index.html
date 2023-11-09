@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+          <li class="nav-item"><a href="#about-myself" class="nav-link">ABOUT MYSELF</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li class="nav-item"><a href="#code-examples" class="nav-link">CODE EXAMPLES</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">LANGUAGES</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main">
+    <div class="main-container">
+      
+      <section class="section__main" id="profile">
+        <img src="assets/img/avatar1.jpg" class="avatar" alt="my photo">
+        <div class="title">
+          <h1 class="title__name">Taćciana Radźkovič</h1>
+          <h2 class="section-title">Front-end developer</h2>
+        </div>        
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">CONTACTS</h2>
+        <ul>
+          <li class="item">Phone: +375293203861</li>
+          <li class="item">E-mail: stv29595@gmail.com</li>
+          <li class="item">Discord: lynxbios</li>
+          <li class="item">Location: Belarus</li>
+        </ul>
+      </section>
+
+      <section class="section" id="about-myself">
+        <h2 class="section-title">ABOUT MYSELF</h2>
+        <p>I'm 38 years old and I currently working as senior legal counsel. However, I started learning programming last year and I have become very passionate about it. I want to pursue a career in frontend development and work as programmer. I'm also interested in system administration. So far, I have learned the basic syntax of Python.  I continue to enthusiastically learn and develop myself in this field.</p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">SKILLS</h2>
+        <ul>
+          <li class="item">HTML/CSS</li>
+          <li class="item">JavaScriptL</li>
+          <li class="item">Python</li>
+          <li class="item">Flask</li>
+          <li class="item">Postgres</li>
+          <li class="item">MySQL</li>
+          <li class="item">AWS</li>
+          <li class="item">Docker</li>
+          <li class="item">Git</li>
+          <li class="item">Yandex.Direct</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code-examples">
+        <h2 class="section-title">CODE EXAMPLES</h2>
+        <p><i>Write a program to create a small dictionary of slang programming expressions that, when prompted, will return the definitions from the dictionary. Input format: The first line specifies an integer n - the number of words in the dictionary. The next n lines contain words and their definitions separated by a colon and a space. The next line contains an integer m - the number of search words whose definitions need to be displayed. The following m lines contain the search words, one per line. Output format: For each word, regardless of case sensitivity, if it is present in the dictionary, the program should display its definition. If the word is not found in the dictionary, the program should output "Not Found" without quotation marks. Note. It is guaranteed that the defined word or phrase does not contain a colon (:) followed by a space.</i></p>
+          
+        <pre>
+          <code>            
+          n = int(input())
+          phrases = [input().split(': ') for _ in range(n)]
+          sleng_dict = {}
+          
+          for key in phrases:
+              sleng_dict.setdefault(key[0].lower(), key[1])
+          
+          m = int(input())
+          
+          for value in range(m):
+              print(sleng_dict.get(input().lower(), 'Не найдено'))
+            </code>
+        </pre>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section-title">EXPERIENCE</h2>
+        <p class="projects__text">I have participated in a small project as a backend developer. I have also explored some aspects of DevOps engineering. I have experience with AWS, Postgres, MySQL and Flask.<br>Also I have several front-end mini-projects.</p>
+        
+        <p class="projects">Projects</p>
+        
+        <ul>
+          <li class="item">
+            <a href="https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/memory-game">Memory-game</a>
+          </li>
+          <li class="item">
+            <a href="https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/js30-1.2-audio-player">Audio-player</a>
+          </li>
+          <li class="item">
+            <a href="https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/image-galery">Image-Gallery</a>
+          </li>
+          <li class="item">
+            <a href="https://lynxbios.github.io/cssMemeSlider/cssMemeSlider/index.html">CSS-Mem-Slider</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">EDUCATION</h2>
+        <p>
+          <p class="item">Mogilev State A. Kuleshov University (2002-2007)</p>
+            <ul>
+              <li class="item">Faculty of Economics and Law</li>
+              <li class="item projects__text">Specialties: Lawyer</li>
+            </ul>
+          <p class="projects">Courses:</p>
+            <ul>
+              <li class="item1">School of Internet Professions PROFI-INTERNET (2019). Specialties: Yandex.Direct specialist 5.0</li>
+              <li class="item1">Stepik (2022). "Python Generation": a course for beginners</li>
+              <li class="item1">Stepik (2022-2023). "Python Generation": advanced course</li>
+              <li class="item1">Stepik (2023). "Generation Python": a course for professionals</li>
+              <li class="item1">The Rolling Scopes School (2023). JavaScript Front-End Pre-School 2023Q2: a course for beginners</li>
+            </ul>          
+      </section>
+
+      <section class="section" id="languages">
+        <h2 class="section-title">LANGUAGES</h2>
+        <p>Belorussian (nativ)</p>
+        <p>English (B2)</p>
+        <p>Russian</p>        
+      </section>
+
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer-container">      
+      2023 &copy;
+      <a class="rs__logo" href="https://rs.school/js/"><img src="assets/img/logo1.jpg" alt="RS-logo"></a>
+      <a href="https://github.com/lynxBios" class="github-logo"><img src="assets/img/github-logo.svg" alt="GitHub-logo"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
