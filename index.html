@@ -21,15 +21,15 @@
         </ul>
       </nav>
     </div>
-  </header>  
+  </header>
   <main class="main">
-    <div class="main-container">      
+    <div class="main-container">
       <section class="section__main" id="profile">
         <img src="assets/img/avatar1.jpg" class="avatar" alt="my photo">
         <div class="title">
           <h1 class="title__name">Taćciana Radźkovič</h1>
           <h2 class="section-title">Front-end developer</h2>
-        </div>        
+        </div>
       </section>
       <section class="section" id="contacts">
         <h2 class="section-title">CONTACTS</h2>
@@ -63,13 +63,13 @@
         <h2 class="section-title">CODE EXAMPLES</h2>
         <p><i>Write a program to create a small dictionary of slang programming expressions that, when prompted, will return the definitions from the dictionary. Input format: The first line specifies an integer n - the number of words in the dictionary. The next n lines contain words and their definitions separated by a colon and a space. The next line contains an integer m - the number of search words whose definitions need to be displayed. The following m lines contain the search words, one per line. Output format: For each word, regardless of case sensitivity, if it is present in the dictionary, the program should display its definition. If the word is not found in the dictionary, the program should output "Not Found" without quotation marks. Note. It is guaranteed that the defined word or phrase does not contain a colon (:) followed by a space.</i></p>
         <pre>
-          <code>            
+          <code>
           n = int(input())
           phrases = [input().split(': ') for _ in range(n)]
-          sleng_dict = {}          
+          sleng_dict = {}
           for key in phrases:
-              sleng_dict.setdefault(key[0].lower(), key[1])          
-          m = int(input())          
+              sleng_dict.setdefault(key[0].lower(), key[1])
+          m = int(input())
           for value in range(m):
               print(sleng_dict.get(input().lower(), 'Не найдено'))
             </code>
@@ -78,7 +78,7 @@
       <section class="section" id="experience">
         <h2 class="section-title">EXPERIENCE</h2>
         <p class="projects__text">I have participated in a small project as a backend developer. I have also explored some aspects of DevOps engineering. I have experience with AWS, Postgres, MySQL and Flask.<br>Also I have several front-end mini-projects.</p>
-        <p class="projects">Projects</p>        
+        <p class="projects">Projects</p>
         <ul>
           <li class="item">
             <a href="https://rolling-scopes-school.github.io/lynxbios-JSFEPRESCHOOL2023Q2/memory-game">Memory-game</a>
@@ -109,18 +109,18 @@
               <li class="item1">Stepik (2022-2023). "Python Generation": advanced course</li>
               <li class="item1">Stepik (2023). "Generation Python": a course for professionals</li>
               <li class="item1">The Rolling Scopes School (2023). JavaScript Front-End Pre-School 2023Q2: a course for beginners</li>
-            </ul>          
+            </ul>
       </section>
       <section class="section" id="languages">
         <h2 class="section-title">LANGUAGES</h2>
         <p>Belorussian (nativ)</p>
         <p>English (B2)</p>
-        <p>Russian</p>        
+        <p>Russian</p>
       </section>
     </div>
-  </main>  
+  </main>
   <footer class="footer">
-    <div class="footer-container">      
+    <div class="footer-container">
       2023 &copy;
       <a class="rs__logo" href="https://rs.school/js/"><img src="assets/img/logo1.jpg" alt="RS-logo"></a>
       <a href="https://github.com/lynxBios" class="github-logo"><img src="assets/img/github-logo.svg" alt="GitHub-logo"></a>
